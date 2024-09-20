@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_layout_personaldata",
+  "info": {
+    "displayName": "Persoonlijke gegevens",
+    "icon": "information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "email": {
+      "type": "email"
+    },
+    "googleMapsLink": {
+      "type": "text"
+    },
+    "address": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "phone": {
+      "displayName": "Phone",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.phone"
+    },
+    "zipCode": {
+      "type": "string"
+    }
+  }
+}

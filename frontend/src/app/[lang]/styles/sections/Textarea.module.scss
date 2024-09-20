@@ -1,0 +1,10 @@
+@import '@/styles/global';
+
+.block {
+  text-align: center;
+  @include flex;
+}
+
+.content {
+  @include innerContainer;
+}

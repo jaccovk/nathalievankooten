@@ -1,0 +1,21 @@
+@import '@/styles/global';
+
+.block {
+  @include stack;
+  overflow: hidden;
+}
+
+.overlay {
+  img {
+    width: 100%;
+    aspect-ratio: 5/1;
+  }
+}
+
+.sliderItem {
+  img {
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
